@@ -18,11 +18,11 @@ where 500 = i
 1 = l
 
 Using these sample values, the accuracies were the following- 
-Logistic Regression Accuracy without Stop Words : 94.76987447698745
-Logistic Regression Accuracy with Stop Words : 92.88702928870293
-Test Data Accuracy on Ham dataset:  96.26436781609196  %
-Test Data Accuracy on Spam dataset:  90.76923076923077  %
-Test Data Accuracy on Ham dataset without stop words:  97.98850574712644  %
-Test Data Accuracy on Spam dataset without stop words:  87.6923076923077  %
+* Logistic Regression Accuracy without Stop Words : 94.76987447698745
+* Logistic Regression Accuracy with Stop Words : 92.88702928870293
+* Test Data Accuracy on Ham dataset:  96.26436781609196  %
+* Test Data Accuracy on Spam dataset:  90.76923076923077  %
+* Test Data Accuracy on Ham dataset without stop words:  97.98850574712644  %
+* Test Data Accuracy on Spam dataset without stop words:  87.6923076923077  %
 
 Seeing the accuracies we saw the accuracies increase when the stop words were omitted, except in the case of spam dataset, in which case it decreased. According to my observations, stop words are generally words which donate no valuable information for the task of text classification. As there is not a standard and perfect stop word dictionary, we might be throwing away potentially useful information by using an off the shelf dictionary in the case of spam classification. 
